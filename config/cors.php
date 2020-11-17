@@ -29,6 +29,7 @@ return [
 
     'max_age' => false,
 
-    'supports_credentials' => false,
+    // return Access-Control-Allow-Credentials header
+    'supports_credentials' => true,
 
 ];
